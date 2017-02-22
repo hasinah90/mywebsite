@@ -1,0 +1,190 @@
+/* this is my stylesheet for the homepage */
+
+/* table of contents */
+
+/* header styles */
+header h1{
+  color: black;
+  background-color: pink;
+}
+
+h1, h6{
+  font-family: cursive;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+/* body styles */
+
+/* footer styles */
+
+body {
+  color: #DB7093;
+  background: #ADD8E6;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 90%;
+  margin: 0px;
+  text-align: center;}
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  a:hover {
+    color: darkcyan;
+  }
+  a:active {
+    color: pink;
+  }
+  .header {
+    background-image: url(project1images/hasinah-kitchen-logo.png);
+    pedding: 0px 0px 0px 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+  }
+h2 {
+  font-family: serif;
+  font-weight: normal;
+
+}
+.nav {
+  float: right;
+  font-family: Georgia, Times, serif;
+  padding: 45px 0px 0px 0px;
+  text-align: right;
+
+}
+li {
+  display: inline;
+  padding: 5px;
+}
+.wrapper {
+  width: 960px;
+  margin: 0px auto;
+  background-position: 0px 0px;
+  text-align: center;
+}
+.wrapper3 {
+  width: 660px;
+  margin-left: 300px;
+  margin-top: 70px;
+}
+.logo{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container_12 {
+  border-top: 1px solid #ffffff;
+  padding: 20px;
+  background-color: #inherit;
+  text-shadow: 1px 1px 3px #666666;
+  font-weight: bold;
+}
+
+.container_12 p {
+  border-bottom: 1px solid #807c72;
+  padding: 5px 0px 15px 0px;
+  font-size: 80%;
+  background-color: #pink;
+}
+
+
+.intro {
+  clear: left;
+  font-size: 100%;
+  line-height: 1.4em;
+}
+.date {
+  font-family: serif;
+  font-size: 90%;
+  color: #000000;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+img.medium {
+  width: 250px;
+  height: 250px;
+  float: center;
+}
+img.large {
+  width: 250px;
+  height: 150px;
+  float: right;
+}
+img.small {
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+figure {
+  display: block;
+  width: 150px;
+  height: 300px;
+  background-color: #FFEFD5;
+  margin: 0px;
+  padding: 9px;
+
+}
+figure img {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #d6d6d6;
+  float: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px
+}
+figure {
+  display: block;
+  width: 150px;
+  height: 300px;
+  background-color: #FFEFD5;
+  margin: 0px;
+  padding: 9px;
+}
+p {
+  font-size: 150%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.row small-up-2 medium-up-3 large-up-3 {
+  width: 220px;
+  margin: 10px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.column column-block {
+  width: 150px;
+  height: 300px;
+}
+figcaption {
+text-decoration: underline;
+text-shadow: 1px 1px 2px #666666;
+font-size: 130%;
+}
+.welcome{
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.choices:hover .choices-content {
+    display: block;
+}
+address {
+  display: block;
+  font-weight: bold;
+  font-size: 200%;
+
+}
+
+ul {
+  text-align: center;
+  display: block;
+}
+li {
+  display: block;
+}
+/*{outline: 1px solid red;}*/
