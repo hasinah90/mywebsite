@@ -16,3 +16,8 @@ if (hourNow > 18) {
 }
 
 document.write('<h3>' + greeting + '</h3>');
+
+$("#heart-trigger").click(function () {
+    $("li").toggleClass("visible");
+ });
+ 
