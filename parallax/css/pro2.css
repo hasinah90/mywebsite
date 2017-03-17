@@ -1,0 +1,539 @@
+/* CSS Document */
+
+/*this is the counter that tells me where the top of the window is*/
+body {
+	background-color: black;
+	height: 10000px;
+}
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 42px;
+	margin-bottom: 150px;
+	margin-left: 150px;
+	color: pink;
+}
+
+p {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	margin-bottom: 150px;
+	margin-left: 150px;
+	color: blue;
+
+}
+
+
+#counter {
+	position: fixed;
+	top: 0%;
+	left: 26%;
+	background-color: rgba(66,67,65,.90);
+	color: #FF0;
+	width: 75px;
+	height: 10000px;
+	text-align: center;
+	line-height: 25px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	z-index: 1;
+
+}
+/*this is the main container for the project*/
+#container {
+	background-color: #BDB76B;center;
+	background-image: url("../images/heart2.jpg");
+	margin: 0 auto;
+	width: 900px;
+	height: 10000px;
+}
+#icon {
+	background-image: url(../images/bunny2.png);
+	background-repeat: no-repeat;
+	background-size: 250px 200px;
+	position: fixed;
+	bottom: -45%;
+	top: 200px;
+	left: 45%;
+	margin-left: -50px;
+	width: 300px;
+	height: 500px;
+	z-index: 0;
+}
+#title {
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Merienda', cursive;
+	font-size: 50px;
+	line-height: 130%;
+	padding-top: 100px;
+}
+#title1 {
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Merienda', cursive;
+	font-size: 18px;
+	line-height: 120%;
+	padding-top: 80px;
+}
+/*jquery plugin for scroll to top bar*/
+#scrollUp {
+    bottom: 0;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: -10px;
+    padding: 10px 5px;
+    font: 14px/20px sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    color: #000;
+    -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #E6E6E6;
+    background-image: -moz-linear-gradient(top, #EBEBEB, #DEDEDE);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EBEBEB), to(#DEDEDE));
+    background-image: -webkit-linear-gradient(top, #EBEBEB, #DEDEDE);
+    background-image: -o-linear-gradient(top, #EBEBEB, #DEDEDE);
+    background-image: linear-gradient(to bottom, #EBEBEB, #DEDEDE);
+    background-repeat: repeat-x;
+    -webkit-transition: margin-bottom 150ms linear;
+    -moz-transition: margin-bottom 150ms linear;
+    -o-transition: margin-bottom 150ms linear;
+    transition: margin-bottom 150ms linear;
+}
+#scrollUp:hover {
+    margin-bottom: 0;
+}
+
+/*ids for boxes that appear when scrolling down the page*/
+
+	#left{
+		margin: 40px;
+		position: relative;
+		text-align: left;
+		visibility: hidden;
+		top: 680px;
+		left: -500px;
+		}
+
+	 #right{
+		  margin: 10px;
+			position: absolute;;
+			text-align: right;
+			color: #000;
+			background-color: rgba(255,246,222,.90);
+			visibility: hidden;
+			top: 1000px;
+			right: 500px;
+			}
+
+/*end of ids*/
+
+.counter_box{
+	width: 200px;
+	height: 10000px;
+	text-align: left;
+	padding: 10px;
+	text-indent: 10px;
+	font-size: 16px;
+}
+
+/*classes for the boxes*/
+.left1-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	background-image:url("../images/married.jpg");
+	background-size: 400px 400px;
+	margin-top: 150px;
+
+}
+
+.left2-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	background-image:url("../images/alismile.jpg");
+	background-size: 400px 400px;
+	margin-top: 150px;
+
+}
+
+.left3-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	background-image:url("../images/ali1.jpg");
+	background-size: 500px 500px;
+	margin-top: 150px;
+
+}
+
+.left4-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	background-image:url("../images/ali2.jpg");
+	background-size: 500px 500px;
+	margin-top: 150px;
+
+}
+
+.left5-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	background-image:url("../images/a+g.jpg");
+	background-size: 500px 500px;
+	margin-top: 150px;
+
+}
+
+.left6-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	background-image:url("../images/beach.jpg");
+	background-size: 500px 500px;
+	margin-top: 150px;
+
+}
+
+.left7-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	background-image:url("../images/ghaith1.jpg");
+	background-size: 500px 450px;
+	margin-top: 150px;
+
+}
+
+.left8-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	background-image:url("../images/ghaith2.jpg");
+	background-size: 450px 450px;
+	margin-top: 150px;
+
+}
+
+.left9-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	background-image:url("../images/ali7.jpg");
+	background-size: 450px 450px;
+	margin-top: 150px;
+
+}
+
+.picture1{
+	border-radius: 80%;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	visibility: hidden;
+
+}
+
+
+.right1-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	text-indent: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	margin-left: inherit;
+	background-image:url("../images/babyali.jpg");
+	background-size: 400px 400px;
+}
+
+.right2-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	text-indent: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	margin-left: inherit;
+	background-image:url("../images/ali6.jpg");
+	background-size: 400px 400px;
+}
+
+.right3-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	text-indent: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	margin-left: inherit;
+	background-image:url("../images/ali.jpg");
+	background-size: 400px 400px;
+}
+
+.right4-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	text-indent: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	margin-left: inherit;
+	background-image:url("../images/ghaith.jpg");
+	background-size: 400px 400px;
+}
+
+.right5-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	text-indent: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	margin-left: inherit;
+	background-image:url("../images/deer.jpg");
+	background-size: 400px 400px;
+}
+
+.right6-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	text-indent: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	margin-left: inherit;
+	background-image:url("../images/ghaith8.jpg");
+	background-size: 400px 500px;
+}
+
+.right7-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	text-indent: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	margin-left: inherit;
+	background-image:url("../images/ali5.jpg");
+	background-size: 500px 500px;
+}
+
+.right8-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	text-indent: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	margin-left: inherit;
+	background-image:url("../images/a+g2.jpg");
+	background-size: 500px 500px;
+}
+
+.right9-div{
+	border-radius: 80%;
+	border: 5px solid pink;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	text-indent: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	margin-left: inherit;
+	background-image:url("../images/ghaith3.jpg");
+	background-size: 500px 500px;
+}
+
+
+.year{
+ font-size: 25px;
+ font-weight: bold;
+}
+.left-div-paragraph{
+	font-family: 'Architects Daughter', cursive;
+
+}
+.right-div-paragraph{
+	font-family: 'Architects Daughter', cursive;
+}
+
+
+/*end of classes*/
+
+/*animations*/
+.shaking {
+    animation-name: shake;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+
+    -moz-animation-name: shake;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+@keyframes shake {
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+
+@-webkit-keyframes shake {
+  50% {
+    -webkit-transform: translate(0, 10px);
+  }
+}
+
+@-moz-keyframes shake {
+  50% {
+    -moz-transform: translate(0, 10px);
+  }
+}
+.fadeIn {
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;
+	animation-duration: 1.0s;
+	-webkit-animation-duration: 1.0s;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+	visibility: visible !important;
+}
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;
+	}
+	60% {
+		transform: scale(1.1);
+	}
+	80% {
+		transform: scale(0.9);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;
+	}
+	60% {
+		-webkit-transform: scale(1.1);
+	}
+	80% {
+		-webkit-transform: scale(0.9);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;
+	}
+}
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 3.5s;
+	-webkit-animation-duration: 3.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(8%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);
+	}
+	50% {
+		-webkit-transform: translateY(8%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+}
+/*end of animations*/

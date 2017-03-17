@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="HTML5 template">
+<title>scrolling website</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/pro2.css">
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merienda:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+
+     <div id="container">
+       <h2 id="title" class="floating">My Little Angels<br /><br />Ali and Ghaith</h2>
+       <h3 id="title1" class="floating">ready to scroll down</h3>
+       <div id="icon" class="shaking">
+     </div>
+
+          <div  class="left1-div">
+                <h1 class="year">12/30/2009</h1>
+                <p class="left-div-paragraph">Got Married </p>
+                <span class="left-div-span">
+                </span>
+           </div>
+
+           <div class="right1-div">
+                <h1 class="year">10/25/2010</h1>
+                <p class="left-div-paragraph"><br></br>Baby Boy "Ali" came to<br></br> the world</p>
+                <span class="left-div-span">
+
+                </span>
+           </div>
+
+           <div class="left2-div">
+                <h1 class="year">Ali is 4 months</h1>
+                <p class="left-div-paragraph"></p>
+                <span class="left-div-span">
+                </span>
+           </div>
+
+           <div class="right2-div">
+                <h1 class="year">Ali is 6 months</h1>
+                <p class="left-div-paragraph"></p>
+                <span class="left-div-span">
+                </span>
+           </div>
+
+           <div class="left3-div">
+                <h1 class="year">10/25/2011</h1>
+                <p class="left-div-paragraph"></p>
+                <span class="left-div-span">
+                </span>
+           </div>
+
+           <div class="right3-div">
+                <h1 class="year">2012</h1>
+                <p class="left-div-paragraph"></p>
+                <span class="left-div-span">
+                </span>
+           </div>
+
+           <div class="left4-div">
+                <h1 class="year">Ali is 2</h1>
+                <p class="left-div-paragraph"></p>
+                <span class="left-div-span">
+                </span>
+           </div>
+
+
+
+
+     <!-- RIGHT DIVS -->
+
+
+
+          <div class="right4-div">
+              <h1 class="year">10/12/2013</h1>
+              <p class="right-div-paragraph">Another Baby Boy "Ghaith" joined the family</p>
+              <span class="right-div-span">
+              </span>
+          </div>
+
+          <div class="left5-div">
+              <h1 class="year">3 months later</h1>
+              <p class="right-div-paragraph"></p>
+              <span class="right-div-span">
+              </span>
+          </div>
+
+          <div class="right5-div">
+                    <h1 class="year">Ghaith is 6 months</h1>
+                    <p class="right-div-paragraph"></p>
+                    <span class="right-div-span">
+                    </span>
+              </div>
+
+
+              <div class="left6-div">
+                     <h1 class="year">2014</h1>
+                     <p class="right-div-paragraph"></p>
+                     <span class="right-div-span">
+                     </span>
+                </div>
+
+                <div class="right6-div">
+                     <h1 class="year">2014</h1>
+                     <p class="right-div-paragraph"></p>
+                     <span class="right-div-span">
+                     </span>
+                 </div>
+
+                 <div class="left7-div">
+                        <h1 class="year">2015</h1>
+                        <p class="right-div-paragraph">Ghaith is 1</p>
+                        <span class="right-div-span">
+                        </span>
+                   </div>
+
+                   <div class="right7-div">
+                        <h1 class="year">2015</h1>
+                        <p class="right-div-paragraph">Ali is 4</p>
+                        <span class="right-div-span">
+                        </span>
+                    </div>
+
+                    <div class="left8-div">
+                           <h1 class="year">2016</h1>
+                           <p class="right-div-paragraph"></p>
+                           <span class="right-div-span">
+                           </span>
+                      </div>
+
+                      <div class="right8-div">
+                           <h1 class="year">2016</h1>
+                           <p class="right-div-paragraph"></p>
+                           <span class="right-div-span">
+                           </span>
+                       </div>
+
+                       <div class="left9-div">
+                              <h1 class="year">2017</h1>
+                              <p class="right-div-paragraph"></p>
+                              <span class="right-div-span">
+                              </span>
+                         </div>
+
+                         <div class="right9-div">
+                              <h1 class="year">2017</h1>
+                              <p class="right-div-paragraph"></p>
+                              <span class="right-div-span">
+                              </span>
+                          </div>
+
+     </div> <!-- End Container -->
+
+     <script>
+         $(window).on("load", function() {
+            $(window).scroll(function() {
+                 $(".left1-div, .right1-div, .left2-div, .right2-div, .left3-div, .right3-div, .left4-div, .right4-div, .left5-div, .right5-div, .left6-div, .right6-div, .left7-div, .right7-div, .left8-div, .right8-div, .left9-div, .right9-div").each(function() {
+                     /* Check the location of each desired element */
+                     var objectBottom = $(this).offset().top  + $(this).outerHeight();
+                     var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+                     /* If the element is completely within bounds of the window, fade it in */
+                     if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                         if ($(this).css("opacity") == 0) {
+                             $(this).fadeTo(400, 1);
+                         }
+                     } else { //object goes out of view (scrolling up)
+                         if ($(this).css("opacity") == 1) {
+                             $(this).fadeTo(400, 0);
+                         }
+                     }
+                 });
+
+            });
+            $(window).scroll(); //invoke scroll-handler on page-load
+         });
+     </script>
+
+</body>
+</html>
